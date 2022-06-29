@@ -5,7 +5,7 @@ import './Button.css'
 //sfc
 const Button = ({ children, onClick }) => {
   return (
-    <button className="add-task-button" onClick={onClick}>
+    <button onClick={onClick} className="add-task-button">
       {children}
     </button>
   )
